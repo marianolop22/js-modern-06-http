@@ -58,13 +58,13 @@ module.exports = {
             filename: '[name].[contentHash].css', //le agrega el hash
             ignoreOrder: false
         }),
-        new CopyPlugin ({
-            patterns: [
-            {
-                from: 'src/assets',
-                to: 'assets/'
-            }
-        ]}),
+        // new CopyPlugin ({
+        //     patterns: [
+        //     {
+        //         from: 'src/assets',
+        //         to: 'assets/'
+        //     }
+        // ]}),
         new CleanWebpackPlugin(),
     ]
 
